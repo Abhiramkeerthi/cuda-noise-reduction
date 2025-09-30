@@ -1,0 +1,35 @@
+GERÇEK ZAMANLI GÜRÜLTÜ AZALTMA TEST RAPORU
+==================================================
+
+GECİKME PERFORMANS TESTİ
+-------------------------
+Chunk Boyutu 256:
+  Ortalama Gecikme: 6.42 ms
+  Gerçek Zamanlı Oran: 4.99x
+  Gerçek Zamanlı Uygunluk: EVET
+
+Chunk Boyutu 512:
+  Ortalama Gecikme: 14.13 ms
+  Gerçek Zamanlı Oran: 4.53x
+  Gerçek Zamanlı Uygunluk: EVET
+
+Chunk Boyutu 1024:
+  Ortalama Gecikme: 26.39 ms
+  Gerçek Zamanlı Oran: 4.85x
+  Gerçek Zamanlı Uygunluk: EVET
+
+Chunk Boyutu 2048:
+  Ortalama Gecikme: 52.51 ms
+  Gerçek Zamanlı Oran: 4.87x
+  Gerçek Zamanlı Uygunluk: EVET
+
+SÜREKLİ AKIŞ TESTİ
+-----------------
+Başarı Oranı: 100.0%
+Ortalama İşleme Süresi: 25.87 ms
+Düşürülen Chunk Sayısı: 0
+
+GÜRÜLTÜ UYUM TESTİ
+-----------------
+Uyum İyileştirmesi: -inf dB
+Uyum Başarısı: HAYIR

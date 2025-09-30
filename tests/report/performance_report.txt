@@ -1,0 +1,45 @@
+GÜRÜLTÜ AZALTMA SİSTEMİ PERFORMANS RAPORU
+==================================================
+
+SPEKTRAL ÇIKARMA ALGORİTMASI SONUÇLARI
+------------------------------
+Ortalama SNR İyileştirmesi: -0.87 dB
+Ortalama Kalite Skoru: 4.75
+Ortalama İşleme Süresi: 14.307 saniye
+Test Edilen Dosya Sayısı: 5
+
+Detaylı Sonuçlar:
+  car.wav: SNR=-0.49dB, Kalite=4.90, Süre=12.918s
+  car1.wav: SNR=-5.29dB, Kalite=4.69, Süre=13.389s
+  h_orig.wav: SNR=-13.60dB, Kalite=4.19, Süre=3.218s
+  nsa_st.wav: SNR=16.38dB, Kalite=5.00, Süre=19.366s
+  nsa_wbn.wav: SNR=-1.33dB, Kalite=4.97, Süre=22.646s
+
+WIENER FILTRE ALGORİTMASI SONUÇLARI
+------------------------------
+Ortalama SNR İyileştirmesi: 4.37 dB
+Ortalama Kalite Skoru: 4.97
+Ortalama İşleme Süresi: 15.310 saniye
+Test Edilen Dosya Sayısı: 5
+
+Detaylı Sonuçlar:
+  car.wav: SNR=6.32dB, Kalite=4.98, Süre=16.805s
+  car1.wav: SNR=3.76dB, Kalite=4.96, Süre=14.937s
+  h_orig.wav: SNR=-4.85dB, Kalite=4.90, Süre=3.584s
+  nsa_st.wav: SNR=11.70dB, Kalite=5.00, Süre=21.570s
+  nsa_wbn.wav: SNR=4.91dB, Kalite=4.99, Süre=19.653s
+
+UYARLAMALI GÜRÜLTÜ AZALTMA ALGORİTMASI SONUÇLARI
+------------------------------
+Ortalama SNR İyileştirmesi: -18.14 dB
+Ortalama Kalite Skoru: 3.24
+Ortalama İşleme Süresi: 21.799 saniye
+Test Edilen Dosya Sayısı: 5
+
+Detaylı Sonuçlar:
+  car.wav: SNR=-13.38dB, Kalite=2.99, Süre=21.216s
+  car1.wav: SNR=-13.34dB, Kalite=2.71, Süre=21.048s
+  h_orig.wav: SNR=-16.61dB, Kalite=3.14, Süre=5.616s
+  nsa_st.wav: SNR=-23.52dB, Kalite=3.76, Süre=30.016s
+  nsa_wbn.wav: SNR=-23.85dB, Kalite=3.62, Süre=31.099s
+
