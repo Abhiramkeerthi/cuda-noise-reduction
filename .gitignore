@@ -1,1 +1,24 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
 
+# Virtual environment
+venv/
+.venv/
+
+# Generated audio/video
+*.wav
+*.mp3
+*.m4a
+*.mp4
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
