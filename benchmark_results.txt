@@ -1,0 +1,11 @@
+CUDA AUDIO NOISE REDUCTION BENCHMARK
+=============================================
+Audio duration: 36.2867 seconds
+Sample rate: 48000 Hz
+
+CPU median time: 0.431722 seconds
+CUDA median time: 0.169072 seconds
+CUDA speedup: 2.55x
+
+CPU real-time factor: 84.05x
+CUDA real-time factor: 214.62x
